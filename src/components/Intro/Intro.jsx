@@ -3,8 +3,7 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import student from "../../img/student.png";
-import glassesimoji from "../../img/glassesimoji.png";
-// import thumbup from "../../img/thumbup.png";
+import star from "../../img/star.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
@@ -53,7 +52,7 @@ const Intro = () => {
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
-          src={glassesimoji}
+          src={star}
           alt=""
         />
 

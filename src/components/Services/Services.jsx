@@ -6,7 +6,7 @@ import TechnologieWeb from "../../img/TechnologieWeb.png";
 import database from "../../img/database.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import CvFatimaOuali from './CvFatimaOuali.pdf';
 
 const Services = () => {
   // context
@@ -30,7 +30,7 @@ const Services = () => {
         PHP, Python
         {/* <br /> */}
         </spane>
-        <a href={Resume} download>
+        <a href={CvFatimaOuali} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
